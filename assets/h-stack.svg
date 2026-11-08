@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 70" width="1200" height="70">
+<defs><linearGradient id="l" x1="0" x2="1"><stop offset="0" stop-color="#EE5A3C"/><stop offset=".5" stop-color="#5FD3C6"/><stop offset="1" stop-color="#5FD3C6" stop-opacity="0"/></linearGradient></defs>
+<text x="0" y="22" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="13" fill="#EE5A3C" letter-spacing="3">// 02 — STACK</text>
+<text x="0" y="56" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="800" fill="#5FD3C6">Tools of the trade</text>
+<rect x="330" y="44" height="3" width="0" fill="url(#l)"><animate attributeName="width" values="0;864;864" keyTimes="0;.4;1" dur="4s" repeatCount="indefinite"/></rect>
+</svg>

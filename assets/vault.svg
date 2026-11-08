@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 330" width="1200" height="330">
+<rect x=".5" y=".5" width="1199" height="329" rx="20" fill="#04161A" stroke="#0E6B76" stroke-opacity=".6"/>
+<text x="30" y="52" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="800" fill="#F4FBFA">The private vault</text>
+<text x="30" y="80" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="14" fill="#5FD3C6">14 client builds behind closed doors · ask for a walkthrough</text>
+<text x="1170" y="60" text-anchor="end" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="40" font-weight="700" fill="#EE5A3C">14<tspan font-size="16" fill="#F4FBFA" dx="6">private repos</tspan></text>
+<g transform="translate(30 110)">
+<rect width="270" height="92" rx="14" fill="#0A2529" stroke="#0E6B76"/>
+<rect width="270" height="92" rx="14" fill="none" stroke="#5FD3C6" stroke-width="1.5" opacity="0"><animate attributeName="opacity" values="0;0;.9;0;0" keyTimes="0;.1;.2;.35;1" dur="5.6s" begin="0.00s" repeatCount="indefinite"/></rect>
+<g transform="translate(22 28)" fill="none" stroke="#EE5A3C" stroke-width="2"><rect x="0" y="12" width="24" height="20" rx="4"/><path d="M5 12V7a7 7 0 0 1 14 0v5"/></g>
+<text x="62" y="42" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="17" font-weight="700" fill="#F4FBFA">Trading academy LMS</text>
+<text x="62" y="66" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="13" fill="#5FD3C6">funnels · Razorpay</text>
+</g><g transform="translate(320 110)">
+<rect width="270" height="92" rx="14" fill="#0A2529" stroke="#0E6B76"/>
+<rect width="270" height="92" rx="14" fill="none" stroke="#5FD3C6" stroke-width="1.5" opacity="0"><animate attributeName="opacity" values="0;0;.9;0;0" keyTimes="0;.1;.2;.35;1" dur="5.6s" begin="0.35s" repeatCount="indefinite"/></rect>
+<g transform="translate(22 28)" fill="none" stroke="#EE5A3C" stroke-width="2"><rect x="0" y="12" width="24" height="20" rx="4"/><path d="M5 12V7a7 7 0 0 1 14 0v5"/></g>
+<text x="62" y="42" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="17" font-weight="700" fill="#F4FBFA">Mountain-stay booking</text>
+<text x="62" y="66" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="13" fill="#5FD3C6">engine + admin panel</text>
+</g><g transform="translate(610 110)">
+<rect width="270" height="92" rx="14" fill="#0A2529" stroke="#0E6B76"/>
+<rect width="270" height="92" rx="14" fill="none" stroke="#5FD3C6" stroke-width="1.5" opacity="0"><animate attributeName="opacity" values="0;0;.9;0;0" keyTimes="0;.1;.2;.35;1" dur="5.6s" begin="0.70s" repeatCount="indefinite"/></rect>
+<g transform="translate(22 28)" fill="none" stroke="#EE5A3C" stroke-width="2"><rect x="0" y="12" width="24" height="20" rx="4"/><path d="M5 12V7a7 7 0 0 1 14 0v5"/></g>
+<text x="62" y="42" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="17" font-weight="700" fill="#F4FBFA">Dental clinic SaaS</text>
+<text x="62" y="66" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="13" fill="#5FD3C6">WhatsApp-native</text>
+</g><g transform="translate(900 110)">
+<rect width="270" height="92" rx="14" fill="#0A2529" stroke="#0E6B76"/>
+<rect width="270" height="92" rx="14" fill="none" stroke="#5FD3C6" stroke-width="1.5" opacity="0"><animate attributeName="opacity" values="0;0;.9;0;0" keyTimes="0;.1;.2;.35;1" dur="5.6s" begin="1.05s" repeatCount="indefinite"/></rect>
+<g transform="translate(22 28)" fill="none" stroke="#EE5A3C" stroke-width="2"><rect x="0" y="12" width="24" height="20" rx="4"/><path d="M5 12V7a7 7 0 0 1 14 0v5"/></g>
+<text x="62" y="42" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="17" font-weight="700" fill="#F4FBFA">Vertical ERP</text>
+<text x="62" y="66" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="13" fill="#5FD3C6">for Indian SMBs</text>
+</g><g transform="translate(30 220)">
+<rect width="270" height="92" rx="14" fill="#0A2529" stroke="#0E6B76"/>
+<rect width="270" height="92" rx="14" fill="none" stroke="#5FD3C6" stroke-width="1.5" opacity="0"><animate attributeName="opacity" values="0;0;.9;0;0" keyTimes="0;.1;.2;.35;1" dur="5.6s" begin="1.40s" repeatCount="indefinite"/></rect>
+<g transform="translate(22 28)" fill="none" stroke="#EE5A3C" stroke-width="2"><rect x="0" y="12" width="24" height="20" rx="4"/><path d="M5 12V7a7 7 0 0 1 14 0v5"/></g>
+<text x="62" y="42" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="17" font-weight="700" fill="#F4FBFA">Immigration platform</text>
+<text x="62" y="66" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="13" fill="#5FD3C6">Postgres · Drizzle</text>
+</g><g transform="translate(320 220)">
+<rect width="270" height="92" rx="14" fill="#0A2529" stroke="#0E6B76"/>
+<rect width="270" height="92" rx="14" fill="none" stroke="#5FD3C6" stroke-width="1.5" opacity="0"><animate attributeName="opacity" values="0;0;.9;0;0" keyTimes="0;.1;.2;.35;1" dur="5.6s" begin="1.75s" repeatCount="indefinite"/></rect>
+<g transform="translate(22 28)" fill="none" stroke="#EE5A3C" stroke-width="2"><rect x="0" y="12" width="24" height="20" rx="4"/><path d="M5 12V7a7 7 0 0 1 14 0v5"/></g>
+<text x="62" y="42" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="17" font-weight="700" fill="#F4FBFA">Earthy e-com engine</text>
+<text x="62" y="66" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="13" fill="#5FD3C6">auth · orders · blog</text>
+</g><g transform="translate(610 220)">
+<rect width="270" height="92" rx="14" fill="#0A2529" stroke="#0E6B76"/>
+<rect width="270" height="92" rx="14" fill="none" stroke="#5FD3C6" stroke-width="1.5" opacity="0"><animate attributeName="opacity" values="0;0;.9;0;0" keyTimes="0;.1;.2;.35;1" dur="5.6s" begin="2.10s" repeatCount="indefinite"/></rect>
+<g transform="translate(22 28)" fill="none" stroke="#EE5A3C" stroke-width="2"><rect x="0" y="12" width="24" height="20" rx="4"/><path d="M5 12V7a7 7 0 0 1 14 0v5"/></g>
+<text x="62" y="42" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="17" font-weight="700" fill="#F4FBFA">3D links page</text>
+<text x="62" y="66" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="13" fill="#5FD3C6">WebGL micro-site</text>
+</g><g transform="translate(900 220)">
+<rect width="270" height="92" rx="14" fill="#0A2529" stroke="#0E6B76"/>
+<rect width="270" height="92" rx="14" fill="none" stroke="#5FD3C6" stroke-width="1.5" opacity="0"><animate attributeName="opacity" values="0;0;.9;0;0" keyTimes="0;.1;.2;.35;1" dur="5.6s" begin="2.45s" repeatCount="indefinite"/></rect>
+<g transform="translate(22 28)" fill="none" stroke="#EE5A3C" stroke-width="2"><rect x="0" y="12" width="24" height="20" rx="4"/><path d="M5 12V7a7 7 0 0 1 14 0v5"/></g>
+<text x="62" y="42" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="17" font-weight="700" fill="#F4FBFA">AI agent + chat UI</text>
+<text x="62" y="66" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="13" fill="#5FD3C6">templates &amp; tooling</text>
+</g>
+</svg>
