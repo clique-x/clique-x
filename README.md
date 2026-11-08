@@ -18,11 +18,13 @@
 <img src="./assets/h-work.svg" width="100%" alt="Featured work"/>
 
 <p align="center">
+  <a href="https://kritrimshop.com"><img src="./assets/card-kritrim.svg" width="49%" alt="Kritrim — artificial jewellery store"/></a>
+  <a href="https://gadgetshub.io"><img src="./assets/card-gadgetshub.svg" width="49%" alt="GadgetsHub — phone accessories and everyday tech store"/></a>
+  <a href="https://zivayu.com"><img src="./assets/card-zivayu.svg" width="49%" alt="Zivayu — Ayurvedic wellness store"/></a>
+  <a href="https://links.earthclique.in"><img src="./assets/card-links.svg" width="49%" alt="links.earthclique.in — Earthclique link hub"/></a>
   <a href="https://casecraft-store.vercel.app"><img src="./assets/card-casecraft.svg" width="49%" alt="CaseCraft — 3D phone-case storefront"/></a>
   <a href="https://github.com/clique-x/earthclique"><img src="./assets/card-earthclique.svg" width="49%" alt="earthclique.in — Himalayan peak inside the logo"/></a>
   <a href="https://github.com/clique-x/earthcliqueamc"><img src="./assets/card-amc.svg" width="49%" alt="Earthclique AMC — on-demand IT and CCTV engineers"/></a>
-  <a href="https://github.com/clique-x/swasthik-website"><img src="./assets/card-swastik.svg" width="49%" alt="Swastik Metal — stainless steel stockist website"/></a>
-  <a href="https://github.com/clique-x/CodaMusica"><img src="./assets/card-codamusica.svg" width="49%" alt="CodaMusica — music made with code"/></a>
   <a href="https://earthclique.in"><img src="./assets/card-next.svg" width="49%" alt="Your idea, next — build with Earthclique"/></a>
 </p>
 
