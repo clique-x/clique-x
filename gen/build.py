@@ -140,6 +140,63 @@ def icosa():
     return [[v[a], v[b]] for a, b in e]
 
 
+def diamond(n=10):
+    """Brilliant-cut gem: table, girdle, culet."""
+    table = ring(0.42, n, 0.42)
+    girdle = ring(0.88, n, 0.12)
+    culet = (0, -0.9, 0)
+    lines = [table, girdle]
+    for k in range(n):
+        lines.append([table[k], girdle[k]])
+        lines.append([girdle[k], culet])
+    return lines
+
+
+def headphones():
+    band = [(0.72 * math.cos(a), 0.15 + 0.72 * math.sin(a), 0) for a in [math.pi * k / 20 for k in range(21)]]
+    lines = [band, [(x, y, 0.08) for x, y, _ in band]]
+    for sx in (-1, 1):
+        x = sx * 0.78
+        lines += [ring(0.36, 18, x, "x", (0, -0.12, 0)), ring(0.24, 14, x + sx * 0.08, "x", (0, -0.12, 0)),
+                  ring(0.36, 18, x - sx * 0.12, "x", (0, -0.12, 0))]
+        for k in range(0, 18, 3):
+            a = 2 * math.pi * k / 18
+            p = (0, -0.12 + 0.36 * math.cos(a), 0.36 * math.sin(a))
+            lines.append([(x, p[1], p[2]), (x - sx * 0.12, p[1], p[2])])
+    return lines
+
+
+def leaf():
+    def edge(sgn):
+        return [(-0.95 + 1.9 * t, 0.42 * sgn * math.sin(math.pi * t) ** 0.9, 0.12 * math.sin(math.pi * t))
+                for t in [k / 24 for k in range(25)]]
+    lines = [edge(1), edge(-1), [(-1.15, 0, 0), (0.95, 0, 0)]]
+    for k in range(1, 7):
+        t = k / 7
+        x = -0.95 + 1.9 * t
+        w = 0.42 * math.sin(math.pi * t) ** 0.9
+        for sgn in (1, -1):
+            lines.append([(x - 0.12, 0, 0.12 * math.sin(math.pi * t)), (x + 0.12, sgn * w * 0.9, 0.12 * math.sin(math.pi * (t + 0.06)))])
+    return lines
+
+
+def chain():
+    """Two interlocked links standing upright, so the spin shows both."""
+    def link(cy, plane, s=1.0):
+        pts = []
+        for k in range(29):
+            a = 2 * math.pi * k / 28
+            v, u = 0.5 * s * math.cos(a), 0.36 * s * math.sin(a)
+            v += 0.22 if math.cos(a) > 0 else -0.22
+            phi = math.pi / 4 if plane == "xy" else -math.pi / 4
+            pts.append((u * math.cos(phi), cy + v, u * math.sin(phi)))
+        return pts
+    out = []
+    for cy, pl in ((0.36, "xy"), (-0.36, "zy")):
+        out += [link(cy, pl), link(cy, pl, 0.7)]
+    return out
+
+
 # ---------------------------------------------------------------- shared defs
 def stars(w, h, n, seed):
     rnd = random.Random(seed)
@@ -284,13 +341,25 @@ def card(num, tag, title, sub, desc, pills, shape, accent, pitch=0.35, scale=86,
 
 
 CARDS = {
-    "casecraft": ("01", "LIVE", "CaseCraft", "3D phone-case storefront",
+    "kritrim": ("01", "LIVE STORE", "Kritrim", "Artificial jewellery, worn close",
+                ["Try pieces live in Mirror, design your", "own in Studio. UPI, cards or COD."],
+                ["Next.js", "Razorpay", "UploadThing"], diamond(), "#F59FB8", 0.45, 92),
+    "gadgetshub": ("02", "E-COMMERCE", "GadgetsHub", "Everyday tech, extraordinary style",
+                   ["Model-cut covers, boAt audio, SanDisk", "storage, CP Plus cams. Ships India-wide."],
+                   ["Razorpay", "UPI", "COD", "WhatsApp"], headphones(), "#6FA8FF", 0.3, 92),
+    "zivayu": ("03", "WELLNESS", "Zivayu", "A legacy of pure wellness",
+               ["Ayurvedic store from Haridwar: moringa,", "shilajit, combo boxes, free consults."],
+               ["Cloudinary", "COD", "Rewards"], leaf(), "#8FD97A", 0.55, 86),
+    "links": ("04", "LINK HUB", "links.earthclique.in", "One tap to all of Earthclique",
+              ["Call, WhatsApp, save contact, reviews", "and directions, all from one page."],
+              ["Link hub", "Save contact", "WhatsApp"], chain(), "#C79BFF", 0.5, 76),
+    "casecraft": ("05", "LIVE", "CaseCraft", "3D phone-case storefront",
                   ["Pick your phone, spin every case in 3D,", "check out with UPI, cards or COD."],
                   ["Next.js", "Three.js", "Medusa", "Razorpay"], phone(), CORAL, 0.3, 88),
-    "earthclique": ("02", "BRAND SITE", "earthclique.in", "A Himalayan peak inside the logo",
+    "earthclique": ("06", "BRAND SITE", "earthclique.in", "A Himalayan peak inside the logo",
                     ["Procedural 3D peak you can drag. The sun", "follows real time of day in Haridwar."],
                     ["Next.js 16", "R3F", "GSAP", "Lenis"], terrain(8), MINT, 0.5, 92),
-    "amc": ("03", "PLATFORM", "Earthclique AMC", "On-demand IT & CCTV engineers",
+    "amc": ("07", "PLATFORM", "Earthclique AMC", "On-demand IT & CCTV engineers",
             ["Raise a ticket, nearby verified engineers'", "phones ring. OTP start, proof-of-fix close."],
             ["Flutter", "Next.js", "TypeScript", "Kotlin"], globe(), "#F2B84B", 0.35, 82),
     "swastik": ("04", "INDUSTRIAL", "Swastik Metal", "Stainless steel, served online",
@@ -299,7 +368,7 @@ CARDS = {
     "codamusica": ("05", "EXPERIMENT", "CodaMusica", "Music made with code",
                    ["Infinite, never-repeating algorithmic", "scores, live-coded in SuperCollider."],
                    ["SuperCollider", "Python"], torus(), "#C79BFF", 0.6, 92),
-    "next": ("06", "OPEN SLOT", "Your idea, next.", "Have something to build?",
+    "next": ("08", "OPEN SLOT", "Your idea, next.", "Have something to build?",
              ["Storefronts, SaaS, 3D sites, booking", "engines. Ping Earthclique, let's ship."],
              ["earthclique.in", "→"], icosa(), CORAL, 0.4, 84),
 }
