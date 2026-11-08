@@ -360,7 +360,7 @@ def footer():
 <rect width="{W}" height="{H}" fill="#04161A"/>
 <path d="{wave(10, 0, 92)}" fill="{TEAL}" opacity=".5"><animateTransform attributeName="transform" type="translate" values="0 0;-754 0" dur="9s" repeatCount="indefinite"/></path>
 <path d="{wave(14, 2, 108)}" fill="{DEEP}"><animateTransform attributeName="transform" type="translate" values="-754 0;0 0" dur="12s" repeatCount="indefinite"/></path>
-<path d="{wave(8, 4, 128)}" fill="{CORAL}" opacity=".35"><animateTransform attributeName="transform" type="translate" values="0 0;-754 0" dur="7s" repeatCount="indefinite"/></path>
+<path d="{wave(8, 4, 128)}" fill="{MINT}" opacity=".22"><animateTransform attributeName="transform" type="translate" values="0 0;-754 0" dur="7s" repeatCount="indefinite"/></path>
 <text x="{W/2}" y="54" text-anchor="middle" font-family="{SANS}" font-size="24" font-weight="800" fill="{SNOW}">Built in the foothills of the Himalayas</text>
 <text x="{W/2}" y="152" text-anchor="middle" font-family="{MONO}" font-size="14" fill="{SNOW}">earthclique.in · Haridwar, Uttarakhand · thanks for scrolling</text>
 </g></svg>'''
